@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" parallel="false" thread-count="1">
+    <!-- Defines a test suite with one or more tests -->
+    <test name="Test1">
+        <!-- Defines a test with one or more classes -->
+        <classes>
+            <!-- Specifies the classes to be included in the test -->
+            <class name="com.mf.test.StringTransformationTest" />
+        </classes>
+    </test>
+</suite>
