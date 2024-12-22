@@ -1,5 +1,4 @@
-**This is repo for challenge QA Assigment - Code Assignment
-**
+This is repo for challenge QA Assigment - Code Assignment
 
 Note:
 - This project is quite simple. It is built with Java JDK 17 and TestNG
