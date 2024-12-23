@@ -38,6 +38,7 @@ public class StringTransformation {
 
     /**
      * Validate if string length is not over the boundary limit
+     *
      * @param s: the string
      */
     private static void verifyIfStringOverBoundary(String s) {
@@ -48,6 +49,7 @@ public class StringTransformation {
 
     /**
      * Convert the string to lower case
+     *
      * @param s: the string
      */
     private static String convertToLowercaseString(String s) {
@@ -71,14 +73,14 @@ public class StringTransformation {
 
     /**
      * Calculate the number of total operations
-     * @param s : the first string
-     * @param t : the second string
+     *
+     * @param s                   : the first string
+     * @param t                   : the second string
      * @param longestCommonPrefix : the length of longest comm prefix
      * @return number of total operations that we need to convert s to t
      */
     private static int calculateTotalOperations(String s, String t, int longestCommonPrefix) {
         return (s.length() - longestCommonPrefix) + (t.length() - longestCommonPrefix);
     }
-
 
 }
